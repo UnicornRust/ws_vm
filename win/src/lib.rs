@@ -1,9 +1,11 @@
 // 智能指针, box 是最基础的智能指针，它的作用仅仅是在 heap 上存储数据
 //
+#[allow(dead_code)]
 struct Cat {
     children: Box<Cat>,
 }
 
+#[allow(dead_code)]
 struct Animal {}
 
 pub fn add(left: usize, right: usize) -> String {

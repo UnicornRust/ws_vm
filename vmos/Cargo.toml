@@ -7,4 +7,6 @@ edition = "2021"
 
 [dependencies]
 
+socket2 = "0.5.5"
 win = { path = "../win"}
+unix = { path = "../unix"}
