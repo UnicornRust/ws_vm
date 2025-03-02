@@ -1,0 +1,16 @@
+[package]
+name = "boxmac"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+syn = "2.0.98"
+quote = "1.0.23"
+proc-macro2 = "1.0.39"
+log = "0.4.26"
+
+
+# 标识为导出 proc-macro 的 lib 不可以导出其他的内容
+[lib]
+proc-macro = true
+

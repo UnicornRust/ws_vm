@@ -1,7 +1,8 @@
 [workspace] 
-
+resolver = "3"
 members = [
   "win",
   "unix",
-  "vmos",
+  "vmos", 
+  "boxmac",
 ]
