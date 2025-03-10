@@ -1,5 +1,5 @@
 [package]
-name = "unix"
+name = "unixos"
 version = "0.1.0"
 edition = "2021"
 

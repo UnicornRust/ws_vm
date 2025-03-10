@@ -1,9 +1,4 @@
-
-use unix::components::ui;
-
-// use socket2::{Domain, SockAddr, Socket, Type};
-use std::error::Error;
-use std::net::{SocketAddr, TcpListener};
+use unixos::{components::ui, Screen};
 use win;
 
 fn main() {
@@ -20,7 +15,7 @@ fn win_lib() {
 
 // 调用 unix 平台绘制库绘制gui
 fn unix_gui() {
-    let screen = unix::Screen {
+    let screen = Screen {
         components: vec![
             Box::new(ui::SelectBox{
                 width: 100,
